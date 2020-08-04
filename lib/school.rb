@@ -27,10 +27,10 @@ end
   def sort 
     rost_hash = {}
     roster.each do |grade, student|
-      grade.each do |i|
-        rost_hash[grade] = i.sort 
+      
+        rost_hash[grade] = student.sort 
       end
-    end
+ 
     rost_hash
   end
 end
