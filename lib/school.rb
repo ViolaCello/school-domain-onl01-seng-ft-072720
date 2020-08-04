@@ -1,7 +1,7 @@
 # code here!
 class School
  
- attr_accessor :roster
+ attr_accessor :roster :grade
 
  
   def initialize(name)
@@ -18,5 +18,6 @@ class School
   end
 end
 
+def 
   
 end
