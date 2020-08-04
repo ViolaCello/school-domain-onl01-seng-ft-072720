@@ -24,5 +24,13 @@ def grade(num)
     grade_arr.push(i)
   end
 end
-  
+  def sort 
+    rost_hash = {}
+    roster.each do |grade, student|
+      grade.each do |i|
+        rost_hash[grade] = i.sort 
+      end
+    end
+    rost_hash
+  end
 end
