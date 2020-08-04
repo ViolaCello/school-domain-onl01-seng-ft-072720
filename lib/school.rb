@@ -1,7 +1,7 @@
 # code here!
 class School
  
- attr_accessor :roster, :grade
+ attr_accessor :roster
 
  
   def initialize(name)
