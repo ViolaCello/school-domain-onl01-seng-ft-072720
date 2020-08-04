@@ -1,7 +1,7 @@
 # code here!
 class School
  
- attr_accessor :roster :grade
+ attr_accessor :roster 
 
  
   def initialize(name)
@@ -18,6 +18,11 @@ class School
   end
 end
 
-def 
+def grade(num)
+  grade_arr = []
+  roster[num] do |i|
+    grade_arr.push(i)
+  end
+end
   
 end
